@@ -1,0 +1,16 @@
+.heading-primary{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.9rem;
+    @include for-tablet-port-up{
+        font-size: 4rem;
+    }
+    @include for-desktop-up{
+        font-size: 4.5rem;
+    }
+}
+
+.body-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
