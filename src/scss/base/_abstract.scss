@@ -1,0 +1,17 @@
+@mixin for-tablet-port-up {
+    @media only screen and (min-width: 600px) {
+        @content;
+    }
+}
+
+@mixin for-tablet-land-up {
+    @media only screen and (min-width: 900px) {
+        @content;
+    }
+}
+
+@mixin for-desktop-up{
+    @media only screen and (min-width: 1200px) {
+        @content;
+    }
+}
