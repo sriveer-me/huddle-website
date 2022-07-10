@@ -1,0 +1,26 @@
+{
+  "name": "huddle-website",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel serve",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veeru-neerukonda/huddle-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veeru-neerukonda/huddle-website/issues"
+  },
+  "homepage": "https://github.com/veeru-neerukonda/huddle-website#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  }
+}
