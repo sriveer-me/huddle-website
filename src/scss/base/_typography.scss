@@ -1,11 +1,24 @@
 .heading-primary{
     font-family: 'Poppins', sans-serif;
     font-size: 2.9rem;
+    color: $color-dark;
     @include for-tablet-port-up{
         font-size: 4rem;
     }
     @include for-desktop-up{
         font-size: 4.5rem;
+    }
+}
+
+.heading-secondary{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: rgba(#111,0.4);
+    text-transform: capitalize;
+
+    @include for-tablet-port-up{
+        font-size: 1.6rem;
     }
 }
 
