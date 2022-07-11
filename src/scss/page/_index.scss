@@ -48,3 +48,10 @@
         }
     }
 }
+
+.exposition-section{
+    margin-top: 5rem;
+    @include for-tablet-port-up{
+        margin-top: 10rem;
+    }
+}
