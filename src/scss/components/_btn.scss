@@ -57,4 +57,18 @@
             }
         }
     }
+
+    &--font-medium{
+        &:link,
+        &:visited{
+            font-size: 1.6rem;
+        }
+    }
+
+    &--squared{
+        &:link,
+        &:visited{
+            border-radius: .5rem;
+        }
+    }
 }

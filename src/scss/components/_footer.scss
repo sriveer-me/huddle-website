@@ -1,0 +1,116 @@
+.footer{
+    &__image{
+        display: block;
+        width: 100%;
+    }
+
+    &__card-wrapper{
+        color: $color-light;
+        background-color: $color-dark;
+    }
+
+    &__card{
+        padding: 3rem;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 8rem;
+
+        @include for-desktop-up{
+            flex-direction: row;
+            justify-content: space-between;
+            width: 80%;
+            margin: 0 auto;
+            padding: 10rem 0;
+        }
+    }
+
+    &__newsletter-box{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+
+        @include for-desktop-up{
+            order: 2;
+        }
+    }
+
+    &__heading-primary{
+        font-family: 'Open Sans', sans-serif;
+        color: $color-light;
+        text-transform: uppercase;
+        font-weight: 400;
+    }
+
+    &__body-text{
+        font-size: 1.4rem;
+        max-width: 45ch;
+    }
+
+    &__input-wrapper{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+
+        @include for-tablet-port-up{
+            flex-direction: row;
+            column-gap: 2rem;
+        }
+    }
+
+    &__input{
+        font-size: 2rem;
+        padding: 0.45rem 1rem;
+        max-width: 60rem;
+        width: 100%;
+    }
+
+    &__button{
+        margin-left: auto;
+        @include for-tablet-port-up{
+            margin-left: 0;
+        }
+    }
+
+    &__information-box{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+
+    &__logo{
+        path{
+            fill: $color-light;
+        }
+    }
+
+    &__contact-box{
+        margin-top: 2.5rem;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 2rem;
+
+        @include for-desktop-up{
+            order: 1;
+        }
+    }
+
+    &__contact-entry{
+        display: flex;
+        column-gap: 1rem;
+    }
+
+    &__icon-box{
+        margin-top: 4rem;
+        display: flex;
+        column-gap: 2rem;
+    }
+
+    &__icon{
+        width: 32px;
+        path{
+            fill: $color-light;
+        }
+    }
+}
