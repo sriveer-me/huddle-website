@@ -55,3 +55,19 @@
         margin-top: 10rem;
     }
 }
+
+.call-to-action-section{
+    margin: 8rem 2rem;
+    @include for-tablet-port-up{
+        margin: 15rem 8rem;
+    }
+    @include for-desktop-up{
+        margin: 20rem 0;
+    }
+
+    text-align: center;
+
+    h1{
+        margin-bottom: 3rem;
+    }
+}
