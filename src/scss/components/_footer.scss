@@ -63,6 +63,10 @@
         padding: 0.45rem 1rem;
         max-width: 60rem;
         width: 100%;
+
+        @include for-desktop-up{
+            width: 400px;
+        }
     }
 
     &__button{
@@ -108,9 +112,19 @@
     }
 
     &__icon{
+        transition: all 0.2s;
+        cursor: pointer;
         width: 32px;
         path{
             fill: $color-light;
+        }
+
+        &:hover{
+            transform: scale(1.05);
+        }
+
+        &:active{
+            transform: scale(0.95);
         }
     }
 }
