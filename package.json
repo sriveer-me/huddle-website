@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "source": "src/index.html",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "serve": "parcel serve",
     "build": "parcel build"
