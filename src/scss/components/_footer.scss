@@ -64,6 +64,10 @@
         max-width: 60rem;
         width: 100%;
 
+        &:focus{
+            outline: 0px;
+        }
+        
         @include for-desktop-up{
             width: 400px;
         }
